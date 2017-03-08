@@ -1,0 +1,31 @@
+{
+  "name": "sequelizedburger",
+  "version": "1.0.0",
+  "description": "A place to enter burger names and eat them",
+  "main": "server.js",
+  "dependencies": {
+    "body-parser": "^1.17.1",
+    "express": "^4.15.2",
+    "express-handlebars": "^3.0.0",
+    "fs": "0.0.1-security",
+    "method-override": "^2.3.7",
+    "mysql": "^2.13.0",
+    "path": "^0.12.7",
+    "sequelize": "^3.30.2"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/plelle/sequelizedburger.git"
+  },
+  "author": "Phil Lelle",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/plelle/sequelizedburger/issues"
+  },
+  "homepage": "https://github.com/plelle/sequelizedburger#readme"
+}
